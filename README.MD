@@ -13,3 +13,7 @@
 - Comandos no terminal para subir o servidor:
   - _ set FLASK_APP = app.py_
   - _ flask run_
+
+### CRIAÇÃO DE TEMPLATES
+
+- Criação e execução do primeiro template

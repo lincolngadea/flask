@@ -1,7 +1,9 @@
-from flask import Flask
+import os
+from flask import Flask, render_template
 
-app = Flask(__name__)
+template_dir = os.path.abspath('./templates')
+app = Flask(__name__, template_folder = template_dir)
 
 @app.route('/')
 def index():
-    return '<h1> Hello Woord </h1>'
+    return render_template('index.html')
