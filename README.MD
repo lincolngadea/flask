@@ -17,3 +17,4 @@
 ### CRIAÇÃO DE TEMPLATES
 
 - Criação e execução do primeiro template
+- Criação de templates dinânmigos como query params e jimja
