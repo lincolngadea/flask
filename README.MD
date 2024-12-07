@@ -11,10 +11,18 @@
 
 - Criação da primeira rota e execução do servidor para teste
 - Comandos no terminal para subir o servidor:
-  - _ set FLASK_APP = app.py_
-  - _ flask run_
+  - _set FLASK_APP = app.py_
+  - _flask run_
 
 ### CRIAÇÃO DE TEMPLATES
 
 - Criação e execução do primeiro template
 - Criação de templates dinânmigos como query params e jimja
+
+### Renderização de formulários
+
+- Instalação da dependencia Flask-WTF:
+  - _pip install flask-wtf_
+- Criação de classe de formulários
+- Renderização do formulário
+- Tratamento dos dados recebidos no formulário via template
