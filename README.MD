@@ -33,3 +33,9 @@
 - Instalação do flask-migrate
 - Refatoração de código
 - Criação de um config para receber as configurações do ambiente
+
+### Iniciando o banco de dados
+
+- Inicia o data base: _flask db init_
+- Inicia o Migrate: _flask db migrate_
+- Aplica as configurações implementadas na base de dados: _flask db upgrade_
