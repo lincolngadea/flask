@@ -26,3 +26,10 @@
 - Criação de classe de formulários
 - Renderização do formulário
 - Tratamento dos dados recebidos no formulário via template
+
+### Refatora o projeto e prepara para usar o sqlite
+
+- Instalação do flask-sqlalchemy
+- Instalação do flask-migrate
+- Refatoração de código
+- Criação de um config para receber as configurações do ambiente
